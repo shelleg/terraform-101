@@ -13,7 +13,7 @@ resource "aws_instance" "example" {
 }
 
 variable "aws_profile" {
-  default = "tikal"
+  default = "default"
 }
 
 variable "aws_region" {
