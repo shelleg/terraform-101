@@ -1,7 +1,7 @@
 module "core" {
   source      = "modules/core"
-  aws_profile = "${var.profile}"
-  aws_region  = "${var.region}"
+  aws_profile = "${var.aws_profile}"
+  aws_region  = "${var.aws_region}"
 }
 
 resource "aws_instance" "example" {
